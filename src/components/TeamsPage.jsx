@@ -21,7 +21,6 @@ function TeamsPage() {
 
   return (
     <div>
-      <h1 className='text-center font-black text-3xl underline'>Equipos</h1>
       <div className='grid grid-cols-3 w-6/12 m-auto mt-5 gap-4'>
         {renderMain()}
       </div>

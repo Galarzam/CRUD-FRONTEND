@@ -69,7 +69,7 @@ function TeamForm() {
               disabled={isSubmitting}
               className='px-5 py-2 rounded bg-blue-500 text-white m-auto mt-5'
             >
-              {isSubmitting ? "Saving..." : "Save"}
+              {isSubmitting ? "Guardando..." : "Guardar"}
             </button>
           </Form>
         )}

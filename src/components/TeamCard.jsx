@@ -16,13 +16,13 @@ function TeamCard({ team }) {
           className='bg-blue-700 text-white px-5 py-2 rounded hover:scale-105'
           onClick={() => navigate(`/edit/${team.id}`)}
         >
-          Edit
+          Editar
         </button>
         <button
           className='bg-red-700 text-white px-5 py-2 rounded hover:scale-105'
           onClick={() => deleteTeam(team.id)}
         >
-          Delete
+          Eliminar
         </button>
       </div>
     </div>
